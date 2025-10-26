@@ -1,8 +1,11 @@
 ---
 title: "An example preprint / working paper"
 authors:
-- admin
+  - admin
 date: "2019-04-07T00:00:00Z"
+
+# Hide this example by default
+draft: true
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -22,7 +25,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+  - Large Language Models
 
 featured: true
 
@@ -31,29 +34,29 @@ hugoblox:
     arxiv: 1512.04133v1
 
 links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+  - type: preprint
+    provider: arxiv
+    id: 1512.04133v1
+  - type: code
+    url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: slides
+    url: https://www.slideshare.net/
+  - type: dataset
+    url: "#"
+  - type: poster
+    url: "#"
+  - type: source
+    url: "#"
+  - type: video
+    url: https://youtube.com
+  - type: custom
+    label: Custom Link
+    url: http://example.org
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
   focal_point: ""
   preview_only: false
 
@@ -63,7 +66,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
+  - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -76,6 +79,6 @@ slides: ""
 This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
 
 > [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
+> Create your slides in Markdown - click the _Slides_ button to check out the example.
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

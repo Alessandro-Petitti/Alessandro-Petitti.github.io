@@ -1,169 +1,148 @@
 ---
 # Display name
-title: Alex Johnson
+title: Alessandro Petitti
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: ""
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Alessandro
+last_name: Petitti
 
 # Pronouns (optional)
-pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Robotics and Control Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: ETH Zürich
+    url: https://ethz.ch/en.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: "mailto:apetitti@ethz.ch"
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Alessandro-Petitti
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://www.linkedin.com/in/alessandro-petitti/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0003-0308-5783
 
 interests:
-  - Large Language Models
+  - Robotics
+  - Optimization based control
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Autonomus Systems
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: MSc Robotics Systems and Control
+    institution: ETH Zürich
+    date_start: 2024-09-15
+    date_end: 2027-04-15
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+      GPA: 5.66/6.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Specialized in control, computer vision and robotics.
+  - area: BSc Industiral Engineering
+    institution: Università Campus Bio-Medico di Roma
+    date_start: 2021-09-01
+    date_end: 2024-07-25
     summary: |
-      GPA: 3.9/4.0
+      GPA: 30.17/30
 
-      Minored in Mathematics. President of AI Club.
+      Wide range of elementary coruse mixing from mechanical to electrical to control engineering.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
+  - position: Robotics research intern
+    company_name: EPFL - CREATE Lab
+    company_url: "https://www.epfl.ch/labs/create/"
+    company_logo: ""
+    date_start: 2024-06-01
+    date_end: 2024-08-31
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Worked as an intern under the direct supervision of Prof. Josie Hughes. My work focused on two main projects.
+      The first was a bimanual teleoperation platform for automated harvesting, where I developed control modules (in MATLAB) to interface the controller (a cable-driven system) with the robotic arms.
+      The second involved a soft squid robot, for which I contributed to building the entire control pipeline — from external state estimation to control algorithms — achieving the sharpest turning radius reported in the bio-inspired robotics literature.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: Python
+        description: ""
         percent: 95
         icon: code-bracket
       - name: Machine Learning
-        description: ''
+        description: ""
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
+      - name: MPC & Optimization based control
+        description: ""
+        percent: 100
+        icon: custom/opt
   - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: Karate Athlete
+        description: ""
+        percent: 150
+        icon: custom/karate
+        icon_attrs: 'class="w-6 h-6"'
+      - name: Piano player
+        description: ""
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
+        icon: custom/pianoo
+      - name: Photography
+        description: ""
         percent: 70
-        icon: book-open
+        icon: custom/camera
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Italian
+    percent: 100
+  - name: German
+    percent: 10
+  - name: French
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Digital Twin Bootcamp - Winning Team
+    url: https://www.unicampus.it/corsi/offerta-formativa/ucbm-academy/bootcamp-overview/digital-twin-bootcamp-2022/
+    date: "2022-09-01"
+    awarder: UCBM Accademy
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Me and my team implemented a Neural Network based predictive maintainence tool for Air Traffic Controller Radar succesfully predicting failure in advance based of vibrational measurment.
+  - title: Nasa Space App Challenge, Global Nominee
+    url: https://www.spaceappschallenge.org/2023/
+    date: "2023-10-15"
+    awarder: NASA Space App
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Me and my team implemented a visualization and phisical demo for the _moonquake_ events. Our product was thinked to help science museums and educational institution to showcase this complex phenomena. Our project was selected from over 5500 teams from around the world to be part of the global challenge.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+My name is Alessandro Petitti and I am a MSc in **Robotics Systems and Control** at **ETH Zürich**. In this stimulating and intercultural environment I am specializing in control and perception applied to robotics. I've completed a **research internship** at EPFL under **prof. Hugens**, working in control of soft robotics.
+At the moment I'm pursing a semester project at the **Robotics and Perception Group** led by **prof. Scaramuzza**, on **Nonlinear Model Predictive Control** for a soft compliant drone.

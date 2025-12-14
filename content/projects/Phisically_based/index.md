@@ -21,6 +21,24 @@ The goal is to move past the “perfectly rigid quadrotor” assumption and mode
 {{< download-pdf file="PBS_proposal.pdf" text="Read the original proposal" >}}
 
 ---
+<!-- Autoplay looping demo (muted is required for autoplay on most browsers) -->
+<figure class="my-6">
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    poster="demo-poster.jpg"
+    style="max-width:100%;height:auto;border-radius:0.5rem;display:block;margin:0 auto;"
+    aria-label="Demo simulation of Morphy impact"
+  >
+    <source src="demo.mp4" type="video/mp4" />
+    <!-- Optional WebM fallback if you generate one -->
+    <source src="demo.webm" type="video/webm" />
+    Your browser does not support the video tag.
+  </video>
+  <figcaption class="text-sm text-zinc-500 mt-2 text-center">Simulation demo: Morphy impact</figcaption>
+</figure>
 
 ## System Model
 

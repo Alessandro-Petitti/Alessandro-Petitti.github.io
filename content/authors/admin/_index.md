@@ -45,9 +45,10 @@ profiles:
 interests:
   - Robotics
   - Optimization based control
+  - Modeling and Simulation
+  - Numerical Methods
   - Soft Robotics
-  - Computer Vision
-  - Autonomous Systems
+  - Bio-inspired Robotics
 
 education:
   - area: MSc Robotics Systems and Control
@@ -57,7 +58,7 @@ education:
     summary: |
       GPA: 5.66/6.0
 
-      Specialized in control, computer vision and robotics. Relevant coursework: Model Predictive Control, Nonlinear Dynamics and Control, Robot Dynamics, Machine Perception, Vision Algorithms for Mobile Robotics, Physically-based Simulation in Computer Graphics, Rehabilitation Engineering.
+      Specialized in control, modeling and robotics. Relevant coursework: Model Predictive Control, Nonlinear Dynamics and Control, Robot Dynamics, Physically-based Simulation in Computer Graphics, Rehabilitation Engineering.
 
       Master thesis (Oct 2026 – Apr 2027) at the Soft Robotics Lab, ETH Zürich, on high-fidelity simulation for learning soft object manipulation.
   - area: BSc Industrial Engineering
@@ -155,8 +156,8 @@ awards:
       Me and my team implemented a visualization and phisical demo for the _moonquake_ events. Our product was thinked to help science museums and educational institution to showcase this complex phenomena. Our project was selected from over 5500 teams from around the world to be part of the global challenge.
 ---
 
-My name is Alessandro Petitti and I am an MSc student in **Robotics, Systems and Controls** at **ETH Zürich**, specializing in control and perception applied to robotics.
+I'm an MSc student in **Robotics, Systems and Controls** at **ETH Zürich**. I'm interested in the intersection of **modeling, numerical methods, control** and **cool robotics applications**. I'm fascinated by the **bio** world, and I hope to have a positive impact on the world with my work.
 
 At the moment I'm starting my **master thesis** at the **Soft Robotics Lab** (ETH Zürich, Prof. Robert Katzschmann), where I use high-fidelity FEM simulation as a supervision engine to learn deformable-object manipulation, with sim-to-real deployment on a Franka robot.
 
-Previously, I completed my **semester project** at the **Robotics and Perception Group** (University of Zürich, Prof. Davide Scaramuzza) on **multi-phase Model Predictive Contouring Control** for flexible-joint drones, worked as a **software developer and motion planning intern** in the MPC team at **Embotech**, and did a **research internship** at EPFL under **Prof. Josie Hughes**, working on control of soft robots.
+Previously, I completed my **semester project** at the **Robotics and Perception Group** (University of Zürich) on **multi-phase Model Predictive Contouring Control** for flexible-joint drones, worked as a **software developer and motion planning intern** in the MPC team at **Embotech**, and did a **research internship** at EPFL under **Prof. Josie Hughes**, working on control of soft robots.

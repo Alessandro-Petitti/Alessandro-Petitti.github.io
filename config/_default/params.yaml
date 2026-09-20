@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ""
     org_name: ""
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
-    twitter: "GetResearchDev"
+    description: "Personal website of Alessandro Petitti, MSc student in Robotics, Systems and Controls at ETH Zürich. Research on model predictive control, optimization-based control and soft robotics."
+    twitter: ""
   analytics:
     google_analytics: ""
     baidu_tongji: ""
@@ -55,6 +55,6 @@ locale:
 # Site features
 features:
   math:
-    enable: ture
+    enable: true
   privacy_pack:
     enable: false

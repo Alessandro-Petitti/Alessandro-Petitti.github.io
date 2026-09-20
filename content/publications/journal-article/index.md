@@ -1,5 +1,8 @@
 ---
 title: "An example journal article"
+
+# Template placeholder, hidden from the site
+draft: true
 authors:
 - admin
 - Robert Ford

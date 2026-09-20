@@ -45,8 +45,9 @@ profiles:
 interests:
   - Robotics
   - Optimization based control
+  - Soft Robotics
   - Computer Vision
-  - Autonomus Systems
+  - Autonomous Systems
 
 education:
   - area: MSc Robotics Systems and Control
@@ -56,27 +57,37 @@ education:
     summary: |
       GPA: 5.66/6.0
 
-      Specialized in control, computer vision and robotics.
-  - area: BSc Industiral Engineering
+      Specialized in control, computer vision and robotics. Relevant coursework: Model Predictive Control, Nonlinear Dynamics and Control, Robot Dynamics, Machine Perception, Vision Algorithms for Mobile Robotics, Physically-based Simulation in Computer Graphics, Rehabilitation Engineering.
+
+      Master thesis (Oct 2026 – Apr 2027) at the Soft Robotics Lab, ETH Zürich, on high-fidelity simulation for learning soft object manipulation.
+  - area: BSc Industrial Engineering
     institution: Università Campus Bio-Medico di Roma
     date_start: 2021-09-01
     date_end: 2024-07-25
     summary: |
-      GPA: 30.17/30
+      GPA: 30.17/30, graduated with full honors
 
-      Wide range of elementary coruse mixing from mechanical to electrical to control engineering.
+      Broad foundation mixing mechanical, electrical, and control engineering.
 
 work:
+  - position: Software Developer and Motion Planning Intern (MPC team)
+    company_name: Embotech AG
+    company_url: "https://www.embotech.com/"
+    company_logo: ""
+    date_start: 2026-03-01
+    date_end: 2026-08-31
+    summary: |2-
+      Intern in the Model Predictive Control (MPC) team in Zürich, working on motion planning for autonomous driving logistic vehicles. Responsible for developing new features as part of the company's R&D.
   - position: Robotics research intern
     company_name: EPFL - CREATE Lab
     company_url: "https://www.epfl.ch/labs/create/"
     company_logo: ""
-    date_start: 2024-06-01
-    date_end: 2024-08-31
+    date_start: 2024-07-01
+    date_end: 2024-09-30
     summary: |2-
-      Worked as an intern under the direct supervision of Prof. Josie Hughes. My work focused on two main projects.
+      Research intern in the highly selective E3 program at EPFL (2% acceptance rate), under the supervision of Prof. Josie Hughes. My work focused on two main projects.
       The first was a bimanual teleoperation platform for automated harvesting, where I developed control modules (in MATLAB) to interface the controller (a cable-driven system) with the robotic arms.
-      The second involved a soft squid robot, for which I contributed to building the entire control pipeline — from external state estimation to control algorithms — achieving the sharpest turning radius reported in the bio-inspired robotics literature.
+      The second involved a soft squid robot, for which I contributed to building the entire control pipeline — from external state estimation to control algorithms — achieving the sharpest turning radius reported in the bio-inspired robotics literature. This work was accepted at IROS 2025.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -144,5 +155,8 @@ awards:
       Me and my team implemented a visualization and phisical demo for the _moonquake_ events. Our product was thinked to help science museums and educational institution to showcase this complex phenomena. Our project was selected from over 5500 teams from around the world to be part of the global challenge.
 ---
 
-My name is Alessandro Petitti and I am a MSc in **Robotics Systems and Control** at **ETH Zürich**. In this stimulating and intercultural environment I am specializing in control and perception applied to robotics. I've completed a **research internship** at EPFL under **prof. Hugens**, working in control of soft robotics.
-At the moment I'm pursing a semester project at the **Robotics and Perception Group** led by **prof. Scaramuzza**, on **Nonlinear Model Predictive Control** for a soft compliant drone.
+My name is Alessandro Petitti and I am an MSc student in **Robotics, Systems and Controls** at **ETH Zürich**, specializing in control and perception applied to robotics.
+
+At the moment I'm starting my **master thesis** at the **Soft Robotics Lab** (ETH Zürich, Prof. Robert Katzschmann), where I use high-fidelity FEM simulation as a supervision engine to learn deformable-object manipulation, with sim-to-real deployment on a Franka robot.
+
+Previously, I completed my **semester project** at the **Robotics and Perception Group** (University of Zürich, Prof. Davide Scaramuzza) on **multi-phase Model Predictive Contouring Control** for flexible-joint drones, worked as a **software developer and motion planning intern** in the MPC team at **Embotech**, and did a **research internship** at EPFL under **Prof. Josie Hughes**, working on control of soft robots.

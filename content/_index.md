@@ -34,11 +34,13 @@ sections:
       title: "📚 My Research"
       subtitle: ""
       text: |-
-        I'm a master student, looking the best way to make a positive impact on the world, wether it its in acadmeia or in industry. 
+        I'm a master student in robotics at ETH Zürich, looking for the best way to make a positive impact on the world, whether in academia or in industry.
 
-        I apply control methods to make machine able to adapt do the uncertaintiy of the world, and reliably execute task.
+        I apply optimization-based control methods to make machines adapt to the uncertainty of the world and reliably execute tasks. My work spans model predictive control for agile flight, soft robotics, and learning for manipulation.
 
-        I'm always happ to talk to people, just reach out 😃
+        **Right now:** I'm starting my master thesis at the Soft Robotics Lab (ETH Zürich), on using high-fidelity simulation of soft objects as a supervision engine to learn manipulation policies that transfer to a real Franka robot.
+
+        I'm always happy to talk to people, just reach out 😃
     design:
       columns: "1"
   - block: collection
@@ -48,10 +50,9 @@ sections:
       filters:
         folders:
           - publications
-        publication_type: "paper-conference"
         featured_only: true
-      # Show only one featured publication
-      count: 1
+      # Show the featured publications
+      count: 2
     design:
       view: article-grid
       columns: 1

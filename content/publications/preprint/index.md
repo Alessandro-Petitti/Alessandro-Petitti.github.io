@@ -1,84 +1,42 @@
 ---
-title: "An example preprint / working paper"
+title: "Multi-Phase Model Predictive Quadrotor Contouring Control"
 authors:
   - admin
-date: "2019-04-07T00:00:00Z"
+  - Rudolf Reiter
+  - Leonard Bauersfeld
+  - Ismail Geles
+  - Davide Scaramuzza
 
-# Hide this example by default
-draft: true
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+date: "2026-01-16T00:00:00Z"
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Preprint"
+publication_short: "Preprint"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "Agile flight with soft robotic structures such as morphologically adaptive quadrotors promises improved safety and resilience, but it poses challenges for real-time optimization: high-fidelity flexible-joint dynamics are required for stable and safe navigation, yet they are computationally too expensive to optimize over long horizons. Existing learning-based approaches often sacrifice either performance or generalization, whereas model-based model predictive contouring control (MPCC) offers strong interpretability and constraint integration when differentiable dynamics are available. We propose a multi-phase MPCC that schedules models of decreasing fidelity within a single optimal control problem. A high-fidelity flexible-joint model in differential algebraic equation (DAE) form is used near the current state, followed by rigid-body and point-mass surrogates to extend look-ahead. We derive the nonlinear program formulation, including phase-coupling transition maps and progress-consistent scheduling. In high-fidelity simulations, the proposed three-phase controller reduces average MPC step time from 120 ± 60 ms to 17.0 ± 0.2 ms and improves lap time from 3.8 ± 0.1 s to 3.4 ± 0.2 s. Real-world experiments on a rigid quadrotor demonstrate favorable trade-offs between computation time and lap time compared to a single-phase MPCC."
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "A multi-phase MPCC that schedules models of decreasing fidelity (flexible-joint, rigid-body, point-mass) within a single optimal control problem, enabling long-horizon agile flight of flexible-joint quadrotors in real time."
 
 tags:
-  - Large Language Models
+  - Model Predictive Control
+  - Aerial Robotics
+  - Optimal Control
 
 featured: true
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
-
-links:
-  - type: preprint
-    provider: arxiv
-    id: 1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: dataset
-    url: "#"
-  - type: poster
-    url: "#"
-  - type: source
-    url: "#"
-  - type: video
-    url: https://youtube.com
-  - type: custom
-    label: Custom Link
-    url: http://example.org
-
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
+  caption: ""
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - internal-project
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+projects: []
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+This work is the outcome of my semester project at the [Robotics and Perception Group](https://rpg.ifi.uzh.ch/), University of Zürich. See the [project page](/projects/semester-project/) for more details.
 
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+**Keywords:** Aerial Systems, Mechanics and Control, Optimization and Optimal Control.

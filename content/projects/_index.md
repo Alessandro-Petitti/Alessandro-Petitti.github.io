@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: During my studyies I completed different projects, here are some I find pretty interesting!
+      text: During my studies I completed different projects, here are some I find pretty interesting!
       filters:
         folders:
           - projects

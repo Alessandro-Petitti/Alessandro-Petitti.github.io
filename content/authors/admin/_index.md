@@ -156,7 +156,9 @@ awards:
       Me and my team implemented a visualization and phisical demo for the _moonquake_ events. Our product was thinked to help science museums and educational institution to showcase this complex phenomena. Our project was selected from over 5500 teams from around the world to be part of the global challenge.
 ---
 
-I'm an MSc student in **Robotics, Systems and Controls** at **ETH Zürich**. I'm interested in the intersection of **modeling, numerical methods, control** and **cool robotics applications**. I'm fascinated by the **bio** world, and I hope to have a positive impact on the world with my work.
+I'm an MSc student in **Robotics, Systems and Controls** at **ETH Zürich**. I'm interested in the intersection of **modeling, numerical methods and control**, applied to any robotics system.
+
+I'm fascinated by how technology can impact the world around us, and always try to have a positive impact with my research.
 
 At the moment I'm starting my **master thesis** at the **Soft Robotics Lab** (ETH Zürich, Prof. Robert Katzschmann), where I use high-fidelity FEM simulation as a supervision engine to learn deformable-object manipulation, with sim-to-real deployment on a Franka robot.
 
